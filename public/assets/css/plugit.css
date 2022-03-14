@@ -1,0 +1,120 @@
+#login-page {
+  background-color: #000;
+  padding:5px !important;
+  border-radius: 2px;
+}
+
+.card-panel {
+  background-color: #fff;
+}
+
+nav {
+  color: #fff;
+  background-color: #000;
+}
+
+footer {
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+}
+footer.page-footer {
+  color: #fff;
+  background-color: #000;
+}
+
+ul.side-nav.leftside-navigation li.active > a {
+  color: #E71C2C;
+}
+
+#content {
+	height:calc(100vh - 95px);
+	overflow-x:scroll;
+}
+
+.img-fond {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+ul.side-nav.leftside-navigation li.user-details {
+  background: url("../images/back.jpg") no-repeat -240px -700px
+}
+
+
+.select-wrapper input.select-dropdown {
+	font-size:15px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="time"], input[type="date"], input[type="datetime-local"], input[type="tel"], input[type="number"], input[type="search"], textarea.materialize-textarea {
+	font-size:15px;
+}
+.input-field label {
+  color: #000;
+  font-size:15px !important;
+}
+::-webkit-input-placeholder {
+  color: #555;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #555;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #555;
+}
+:-ms-input-placeholder {
+  color: #555;
+}
+
+
+.collection .collection-item.avatar2
+{
+  min-height: 60px !important;
+}
+
+.collection .collections-title, .collection .collections-content
+{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.tabs-variable-width
+{
+  -webkit-box-flex: initial;
+  -webkit-flex-grow: initial;
+  -ms-flex-positive: initial;
+  flex-grow: initial;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 601px)
+{
+  .tabs .tab a.active
+  {
+    border-bottom: 4px solid #b71c1c;
+    background-color: #212121  !important;
+    color: #FFFFFF !important;
+  }
+  .tabs .indicator
+  {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 993px)
+{
+  .tabs .tab a.active
+  {
+    border-bottom: 4px solid #b71c1c;
+    background-color: #212121  !important;
+    color: #FFFFFF !important;
+  }
+  .tabs .indicator
+  {
+    display: none;
+  }
+}

@@ -1,0 +1,60 @@
+.card-action-buttons
+{
+	float: right;
+	position: absolute;
+	top: 0px;
+
+	right: 0px;
+	z-index: 1000;
+	/*padding: 5px;
+	color: #FFFFFF;
+	font-weight: bold;*/
+}
+.card-action-buttons li
+{
+	padding-bottom: 5px;
+}
+
+.colimg
+{
+	position: relative;
+	text-align:center;
+}
+
+.img_ok
+{
+	border: 4px solid #00C853;
+	margin: -4px;
+}
+.img_refus
+{
+	border: 4px solid #E9192E;
+	margin: -4px;
+}
+.img_encours
+{
+	border: 4px solid #8e24aa;
+	margin: -4px;
+}
+
+#loader-wrapper
+{
+	z-index: 1001;
+}
+
+
+.btnClientChoice
+{
+	cursor:pointer;
+}
+
+
+.progress .progressGreen {
+	background-color: #558b2f;
+}
+.progress .progressOrange {
+	background-color: #f57f17 ;
+}
+.progress .progressRed {
+	background-color: #E9192E;
+}
